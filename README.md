@@ -19,11 +19,11 @@ This is the first round of test. Where, I, chatGPT and Gemini did not use the kn
 
 ### gemini_round_1.py
 
-Gemini built an boolean array of length 1400.
+Gemini built an boolean array of prime numbers.
 
-Answer: 19268573182
+Correct answer: 19268573182
 
-Timing from 3 runs
+Timings of 3 runs
 
     real    0m24.866s
     user    0m24.784s
@@ -53,7 +53,7 @@ ChatGPT says
 
 However, CharGPT did not use it's own idea.
 
-Answer: 19268573182
+Correct answer: 19268573182
 
 Timing from 3 runs
 
@@ -73,7 +73,7 @@ Timing from 3 runs
 
 I built a dictionary of prime keys.
 
-Answer: 19268573182
+Correct answer: 19268573182
 
 Timing from 3 runs
 
@@ -97,15 +97,15 @@ We have been allowed to see each others code and from there make improvements.
 
 This time Gemini came up with the wrong answer and it was also slower.
 
-Answer: 69799288914
+Wrong answer: 69799288914
 
     real    0m49.675s
     user    0m47.964s
     sys     0m1.704s
 
-I then attempted to make Gemini use repeated cycles, as ChatGPT suggested, and it came up again with
+I then attempted to make Gemini use repeated cycles, as ChatGPT suggested, and it came up again with a bad solution.
 
-Answer: 69799288864
+Wrong answer: 69799288864
 
     real    0m31.977s
     user    0m30.185s
@@ -115,7 +115,7 @@ Answer: 69799288864
 
 This time ChatGPT used its own idea of cycles and the improvement was drastic!
 
-Answer: 19268573182
+Correct answer: 19268573182
 
     real    0m0.018s
     user    0m0.014s
@@ -134,7 +134,7 @@ Answer: 19268573182
 
 This time I used arrays and computed with cycles.
 
-Answer: 19268573182
+Correct answer: 19268573182
 
     real    0m0.013s
     user    0m0.009s
