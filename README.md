@@ -25,17 +25,17 @@ Answer: 19268573182
 
 Timing from 3 runs
 
-real    0m24.866s
-user    0m24.784s
-sys     0m0.077s
+    real    0m24.866s
+    user    0m24.784s
+    sys     0m0.077s
 
-real    0m26.550s
-user    0m26.475s
-sys     0m0.068s
+    real    0m26.550s
+    user    0m26.475s
+    sys     0m0.068s
 
-real    0m26.132s
-user    0m26.035s
-sys     0m0.092s
+    real    0m26.132s
+    user    0m26.035s
+    sys     0m0.092s
 
 ### chatgpt_round_1.py
 
