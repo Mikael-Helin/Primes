@@ -132,5 +132,18 @@ Answer: 19268573182
 
 ### mikael_round_2.py
 
-This time I used arrays only and computed with cycles.
+This time I used arrays and computed with cycles.
 
+Answer: 19268573182
+
+    real    0m0.013s
+    user    0m0.009s
+    sys     0m0.004s
+
+    real    0m0.020s
+    user    0m0.010s
+    sys     0m0.010s
+
+    real    0m0.019s
+    user    0m0.013s
+    sys     0m0.005s
