@@ -18,12 +18,9 @@ for p in range(1400):
 # Initialize variables
 
 X = 1
-primes_sum = 0
+primes_sum = X if primes.get(X, False) else 0
 
 # Computing the sum of primes in a for loop
-
-if primes.get(X, False):
-    primes_sum += X
 
 for _ in range(100000000):
     X = ((2147483647*X + 137438953471) % 1400 + 1)
