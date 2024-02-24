@@ -216,3 +216,15 @@ If we were to use number generation with numpy, it gets fast... unfortunately np
     real    0m3.114s
     user    0m3.096s
     sys     0m0.529s
+
+## Yet another problem
+
+Find the largest prime where all digits are different. Naturally, this prime is smaller than the number 9876543210. Using permutations is allowed, if you think it speeds up computation.
+
+Gemini
+
+    The largest prime with unique digits is: 1234657
+
+ChatGPT
+
+    101
