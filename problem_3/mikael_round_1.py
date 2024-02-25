@@ -13,9 +13,6 @@ copy_permutations = np.copy(permutations)
 # Remove all permutations that end with an even number or 5
 permutations = [p for p in permutations if p % 10 not in [0, 2, 4, 5, 6, 8]]
 
-# Remove all permutations that end with an even number or 5
-permutations = [p for p in permutations if str(p)[-1] not in ['0', '2', '4', '5', '6', '8']]
-
 # Remove all permutations that are divisible by 3
 permutations = [p for p in permutations if p % 3 != 0]
 
