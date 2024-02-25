@@ -56,6 +56,11 @@ while p <= Xmax:
         primes[p*p - 1:Xmax:p] = False
     p += 1
 
-# Now find the largest prime in primes
-max_prime = np.max(np.where(primes)) + 1
-print("max_prime:", max_prime)
+# Now find the largest prime in permutations
+max_prime = 0
+for num in permutations:
+    if primes[num - 1]:
+        max_prime = num
+
+print("max_prime:", max_prime) # Answer: 31457269
+
