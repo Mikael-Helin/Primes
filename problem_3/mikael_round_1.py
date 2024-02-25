@@ -26,8 +26,8 @@ print(f"Number of permutations left: {len(permutations)}") # Answer: 0
 # Copy back the original permutations
 permutations = np.copy(copy_permutations)
 
-# Remove the 2 last digits of the permutations
-permutations = [p // 100 for p in permutations]
+# Remove the 1 last digits of the permutations
+permutations = [p // 10 for p in permutations]
 
 # Remove all permutations that end with an even number or 5
 permutations = [p for p in permutations if p % 10 not in [0, 2, 4, 5, 6, 8]]
